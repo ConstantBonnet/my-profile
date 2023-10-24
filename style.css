@@ -1,0 +1,75 @@
+.card-white {
+    background-color: #A7E0E0;
+    border: 6px solid #F7F6CF;
+    padding: 20px;
+    margin: 25px;
+}
+
+.ux-ui-design, .frontend-development, .motorbikes {
+    background-color: #E3CD8B;
+}
+
+.follow-me {
+    background-color: #FFA500;
+}
+
+body {
+    background-color: rgb(76, 150, 184);
+    color: rgb(56, 68, 84);
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 200px;
+    }
+}
+
+h1, h2 {
+    color: blue; /* Correction de la couleur */
+    font-family: Courier, monospace;
+}
+
+h1 {
+    color: #F5DF4D;
+    font-size: 65px;
+}
+
+h2 {
+    color: #0d4537;
+    font-family: Courier, monospace;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    color: #FFA500;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline > li {
+    display: inline;
+    margin-right: 30px; /* Utilisation de margin-right à la place de padding pour l'espacement */
+}
